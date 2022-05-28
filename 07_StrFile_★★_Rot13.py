@@ -11,5 +11,4 @@ while True:
             rot += alphabets[k+13]
         else:
             rot += c
-
     print(rot)

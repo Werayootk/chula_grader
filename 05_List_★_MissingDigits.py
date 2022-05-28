@@ -1,6 +1,3 @@
-from string import digits
-
-
 digits = list('0123456789')
 x = input()
 for c in x:
@@ -9,4 +6,4 @@ for c in x:
 if len(digits) == 0:
     print('None')
 else:
-    print(''.join(digits))
+    print(','.join(digits))
